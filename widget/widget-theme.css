@@ -1,0 +1,38 @@
+/* Пространство — акценты виджета под стиль сайта (тёмная тема) */
+
+#cw-root.cw.cw--tilda.cw--theme-dark {
+  --cw-accent: #f6c45c;
+  --cw-accent-soft: rgba(246, 196, 92, 0.18);
+}
+
+#cw-root.cw.cw--tilda.cw--theme-dark .cw-fab {
+  border-color: rgba(246, 196, 92, 0.45);
+  background:
+    radial-gradient(circle at 30% 20%, rgba(246, 196, 92, 0.22), transparent 55%),
+    radial-gradient(circle at 80% 80%, rgba(185, 103, 255, 0.18), transparent 50%),
+    rgba(12, 14, 41, 0.92);
+  box-shadow:
+    0 0 0 1px rgba(246, 196, 92, 0.12),
+    0 12px 40px rgba(0, 0, 0, 0.45),
+    0 0 24px rgba(185, 103, 255, 0.15);
+}
+
+#cw-root.cw.cw--tilda.cw--theme-dark .cw-fab__icon svg {
+  stroke: #fff4d0;
+}
+
+#cw-root.cw.cw--tilda.cw--theme-dark .cw-chat__send,
+#cw-root.cw.cw--tilda.cw--theme-dark .cw-start-form__submit {
+  border-color: rgba(246, 196, 92, 0.5);
+  background: linear-gradient(135deg, rgba(246, 196, 92, 0.28), rgba(185, 103, 255, 0.22));
+  color: #fff8d7;
+}
+
+#cw-root.cw.cw--tilda.cw--theme-dark .cw-msg--user {
+  background: rgba(246, 196, 92, 0.14);
+  border-color: rgba(246, 196, 92, 0.28);
+}
+
+#cw-root.cw.cw--tilda.cw--theme-dark .cw-msg--assistant {
+  border-color: rgba(185, 103, 255, 0.22);
+}
