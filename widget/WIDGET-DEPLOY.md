@@ -22,9 +22,11 @@
 | Путь | Назначение |
 |------|------------|
 | `backend/clients/prostranstvo/system.md` | Строгий промпт консультанта |
-| `backend/clients/prostranstvo/knowledge.json` | Тарифы, модули, legal-ссылки |
+| `backend/clients/prostranstvo/knowledge.json` | Тарифы, инструменты, entry_points MAX/TG |
 | `backend/clients/prostranstvo/contacts.json` | Бот поддержки Telegram |
 | `backend/clients/prostranstvo/meta.json` | Имя агента |
+| `backend/clients/prostranstvo/NOTIFY.txt` | Куда слать уведомления в Telegram |
+| `../agent_system/DEPLOY-SERVER.md` | Полная инструкция деплоя бекенда на сервер |
 
 **agentId виджета:** `prostranstvo`
 
